@@ -9,9 +9,21 @@ const Header = () => {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if(window.scrollY >=100){
+            setColor(true)
+        } else{
+            setColor(false)
+        }
+    };
+
+    window.addEventListener("scroll", changeColor)
 
   return (
-    <div className='header-container'>
+    <div className={color ? 'header-container header-container-bg': 
+    'header-container'}>
         <Link to="/">
             <h1>GOECHA</h1>
             </Link>

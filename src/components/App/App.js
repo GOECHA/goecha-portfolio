@@ -5,7 +5,7 @@ import About from '../../routes/About/About'
 import Project from '../../routes/Project/Project'
 import Contact from '../../routes/Contact/Contact'
 import { Routes, Route } from 'react-router-dom'
-import './App.css'
+// import './App.css'
 
 
 const App = () => {
