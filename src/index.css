@@ -24,7 +24,7 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: rgb(50, 221, 252);
   color: #222;
   border: 1px;
   font-weight: 600;
@@ -34,6 +34,7 @@ ul{
 .btn-light{
   background-color: transparent;
   color: #fff;
+  border: solid 1px #fff;
 
 }
 
