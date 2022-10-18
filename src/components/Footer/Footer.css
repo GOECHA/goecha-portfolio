@@ -1,0 +1,25 @@
+*{
+    border: solid 1px purple;
+}
+
+.footer{
+       /*height:100%;*/   /*you need to comment this height*/
+    width: 100%;
+    height: auto;
+    padding: 6rem 0;
+    background-color: rgba(19,19,19,.8);
+    position: relative;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-gap: 40px;
+    position: sticky bottom;
+}
+
+.left{
+    height: 100%;
+}
