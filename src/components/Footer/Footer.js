@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <div className="left">
+        <section className="left">
           <div className="location">
             <HomeIcon
               style={{
@@ -55,8 +55,8 @@ const Footer = () => {
               </h4>
             </div>
           </div>
-        </div>
-        <div className="right">
+        </section>
+        <section className="right">
           <h4> About the company</h4>
           <p> This is me Chantal Goethals. I love to create and learn new tech!</p>
           <div className="social">
@@ -79,7 +79,7 @@ const Footer = () => {
                   alt="linkedin icon"
                 />
             </div>
-        </div>
+        </section>
       </div>
     </div>
   );
