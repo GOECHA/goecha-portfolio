@@ -13,9 +13,10 @@ const WorkCard = (props) => {
 
   return (
     <div className="project-card">
-      <img className="hover-gif"
+      <img 
         src={props.imgsrc}
         alt="image"
+        onMouseOver={e => console.log(e)}
       />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
