@@ -5,12 +5,10 @@ import WorkCard from "../WorkCard/WorkCard";
 import WorkCardData from '../WorkCardData/WorkCardData';
 
 const Work = () => {
-  return (
-    <div className="work-container">
-      <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-       {WorkCardData.map((val, index) => {
-        return (
+
+
+const dynamicCard = WorkCardData.map((val, index) => {
+      return (
             <WorkCard 
             key={index}
             imgsrc={val.imgsrc}
@@ -19,8 +17,16 @@ const Work = () => {
             view={val.view}
             source={val.source}
             />
-        )
-       })}
+          )
+ })
+
+
+
+  return (
+    <div className="work-container">
+      <h1 className="project-heading">Projects</h1>
+      <div className="project-container">
+       {dynamicCard}
       </div>
     </div>
   );

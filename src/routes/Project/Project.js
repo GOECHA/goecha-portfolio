@@ -12,8 +12,8 @@ const Project = () => {
       <Header />
       <HeroImg2 heading="PROJECTS." text="Some of my most recent projects"/>
       <Work />
-      <PricingCard/>
-      <Footer />
+      <PricingCard />
+      {/* <Footer /> */}
     </div>
   )
 }

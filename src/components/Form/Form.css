@@ -1,7 +1,13 @@
+*{
+    border: solid 1px purple;
+}
+
 label {
    color: #fff; 
    margin-bottom: .5rem
 }
+
+
 
 form {
     display: flex;
@@ -9,7 +15,6 @@ form {
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
-
 }
 
 form input, form textarea{

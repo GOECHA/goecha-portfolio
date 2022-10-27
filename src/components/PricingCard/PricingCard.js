@@ -6,7 +6,7 @@ import './PricingCard.css'
 const PricingCard = () => {
   return (
     <div className='pricing'>
-        <div className='card-container'>
+        <div className='card-container' style={{marginBottom:'200px'}}>
             <div className='card'>
                 <h3> - Basic -</h3>
                 <span className='bar'></span>
