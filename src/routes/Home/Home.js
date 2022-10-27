@@ -1,11 +1,14 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
+import HeroImage from '../../components/HeroImage/HeroImage';
+
+
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className='home-footer-container'>
       <Header/>
-        <h2>Home</h2>  
+      <HeroImage style={{marginBottom:"10rem"}}/> 
     </div>
   )
 }
