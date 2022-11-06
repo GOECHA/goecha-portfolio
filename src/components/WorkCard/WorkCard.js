@@ -1,35 +1,29 @@
 // import React, { useState } from "react";
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./WorkCard.css";
-// import { ProjectCardData } from "./WorkCardData"
 
 const WorkCard = (props) => {
-// const [hover, setHover] = useState(false)
 
-// handleChange = (e) => {
-//     setHover(true)
-// }
+
+
 
   return (
     <div className="project-card">
-      <img 
+      <img
         src={props.imgsrc}
-        alt="image"
-        onMouseOver={e => console.log(e)}
+        alt="pro img"
+        onMouseOver={(e) => console.log(1111, e)}
       />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
-            {" "}
-            View{" "}
-          </NavLink>
-          <NavLink to={props.source} className="btn">
-            {" "}
-            Source{" "}
-          </NavLink>
+          <a className="btn" target="blank" href={props.view}>
+            View
+          </a>
+          <a className="btn" target="blank" href={props.source}>
+            Source
+          </a>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Form = () => {
       }, (error) => {
           console.log(error.text);
       });
-      e.target.reset
+      e.target.reset()
   };
   return (
       <div className='form'>
