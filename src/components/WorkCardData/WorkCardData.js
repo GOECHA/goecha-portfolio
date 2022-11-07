@@ -1,3 +1,21 @@
+import  {addFriend} from "../../images/icons/add-friend.svg"
+import  {deleteFriend} from "../../images/icons/delete-friend.svg"
+import  {email} from "../../images/icons/email-icon.svg"
+import  {exit} from "../../images/icons/exit-btn.svg"
+import  {friends} from "../../images/icons/friends_1.svg"
+import  {GH} from "../../images/icons/GH.svg"
+import  {hamburger} from "../../images/icons/hamburger.svg"
+import  {home} from "../../images/icons/home-icon.svg"
+import  {home2} from "../../images/icons/home-icon2.svg"
+import  {LIG} from "../../images/icons/LI-G_1.svg"
+import  {LIG2} from "../../images/icons/LI-G.svg"
+import  {LI} from "../../images/icons/LI.svg"
+import  {logout} from "../../images/icons/logout-icon.svg"
+import  {phone} from "../../images/icons/phone-icon.svg"
+import  {user} from "../../images/icons/user-icon.svg"
+
+
+
 
 const ProjectCardData = [
     {
@@ -49,49 +67,49 @@ const ProjectCardData = [
 
 const icons = [
     {
-    icon: "add-friend.svg"
+    icon: {addFriend}
 },
 {
-    icon: "delete-friend.svg"
+    icon: {deleteFriend}
 },   
  {
-    icon: "email-icon.svg"
+    icon: {email}
 },  
   {
-    icon: "exit-btn.svg"
+    icon: {exit}
 },   
  {
-    icon: "friends_1.svg"
+    icon: {friends}
 },   
  {
-    icon: "GH.svg"
+    icon: {GH}
 },   
  {
-    icon: "hamburger.svg"
+    icon: {hamburger}
 },   
  {
-    icon: "home-icon.svg"
+    icon: {home}
 },   
  {
-    icon: "home-icon2.svg"
+    icon: {home2}
 },   
  {
-    icon: "LI-G_1.svg"
+    icon: {LIG}
 },
 {
-    icon: "LI-G.svg"
+    icon: {LIG2}
 },
 {
-    icon: "LI.svg"
+    icon: {LI}
 },
 {
-    icon: "logout-icon.svg"
+    icon: {logout}
 },
 {
-    icon: "phone-icon.svg"
+    icon: {phone}
 },
 {
-    icon: "user-icon.svg"
+    icon: {user}
 }
 ]
 
