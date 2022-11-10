@@ -1,23 +1,26 @@
 
-import React, { useRef, useEffect, useState } from 'react'
+import React from 'react'
 import './IconCard.css'
 // import {ReactComponent as ImportedSVG} from `../../images/icons/${icons}.svg`;
-
+// import {icons} from '../../components/WorkCardData/WorkCardData'
 
 
 
 const IconCard = (props) => {
+
+    
+
   return (
     <div className='icon-card'>
-        <div className='icon-wrapper'>
+        {/* <div className='icon-wrapper'> */}
             {/* <svg> */}
        
-        <svg viewBox="0 0 100 100" src={props.icon} /> 
-        {/* {props.icon}  */}
+        {/* <svg viewBox="0 0 100 100" src={props.icon} />  */}
+        {/* {props.icons}  */}
         {/* </svg> */}
-        {/* <svg xmlns={`../../images/icons/${props.icon}`} alt="icon img" /> */}
+        <img src={props.icons} alt="icon img" />
         {/* </svg> */}
-        </div>
+        {/* </div> */}
     </div>
   )
 }

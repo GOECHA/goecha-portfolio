@@ -1,19 +1,51 @@
-import  {addFriend} from "../../images/icons/add-friend.svg"
-import  {deleteFriend} from "../../images/icons/delete-friend.svg"
-import  {email} from "../../images/icons/email-icon.svg"
-import  {exit} from "../../images/icons/exit-btn.svg"
-import  {friends} from "../../images/icons/friends_1.svg"
-import  {GH} from "../../images/icons/GH.svg"
-import  {hamburger} from "../../images/icons/hamburger.svg"
-import  {home} from "../../images/icons/home-icon.svg"
-import  {home2} from "../../images/icons/home-icon2.svg"
-import  {LIG} from "../../images/icons/LI-G_1.svg"
-import  {LIG2} from "../../images/icons/LI-G.svg"
-import  {LI} from "../../images/icons/LI.svg"
-import  {logout} from "../../images/icons/logout-icon.svg"
-import  {phone} from "../../images/icons/phone-icon.svg"
-import  {user} from "../../images/icons/user-icon.svg"
-
+// import  addFriend from "../../images/icons/add-friend.svg"
+// import  deleteFriend from "../../images/icons/delete-friend.svg"
+// import  email from "../../images/icons/email-icon.svg"
+// import  exit from "../../images/icons/exit-btn.svg"
+// import  friends from "../../images/icons/friends_1.svg"
+// import  GH from "../../images/icons/GH.svg"
+// import  hamburger from "../../images/icons/hamburger.svg"
+// import  home from "../../images/icons/home-icon.svg"
+// import  home2 from "../../images/icons/home-icon2.svg"
+// import  LIG from "../../images/icons/LI-G_1.svg"
+// import  LIG2 from "../../images/icons/LI-G.svg"
+// import  LI from "../../images/icons/LI.svg"
+// import  logout from "../../images/icons/logout-icon.svg"
+// import  phone from "../../images/icons/phone-icon.svg"
+// import  user from "../../images/icons/user-icon.svg"
+// import  addFriend from "../../images/iconsPng/add-friend.png"
+// "cc-bold-mint.png"
+// "cc-favicon-128_1.png"
+// "cc-favicon-mint.png"
+// "cc-favicon-pink-bold.png"
+// "cc-favicon-pink.png"
+// "cc-favicon-white.png"
+// "cc-lg-logo-8.png"
+// "cc-logo-8.png"
+// "cc-logo.png"
+// "cc-white-logo-bold.png"
+// "dd-lg.png"
+// "delete-friend.png"
+// "email-icon.png"
+// "exit-btn.png"
+// "favicon-lg-pink.png"
+// "fntsh-lg.png"
+// "fntshd-lg.png"
+// "friends_1.png"
+// "GH-8.png"
+// "hamburger.png"
+// "home-icon.png"
+// "home-icon2.png"
+// "IG-8.png"
+// "IG-G-8.png"
+// "LI-8.png"
+// "LI-G_1-8.png"
+// "LI-G-8.png"
+// "logout-icon.png"
+// "nymin-logo.png"
+// "phone-icon.png"
+// "skull-small.png"
+// "user-icon.png"
 
 
 
@@ -53,69 +85,69 @@ const ProjectCardData = [
     view: "https://concert-crew.herokuapp.com/",
     source: "https://github.com/concert-crew/client"
 },
-{
-    imgsrc: "https://user-images.githubusercontent.com/102189342/191309896-1a19bfc9-3af9-42c6-b562-7bcdc6cce7b6.png",
-    title: "Habitual",
-    text: "A JavaScript application built in React-Native and consumption of a REST API of Compliments and Mantras built with Express. This is an application that allows a user to view a random mantra and choose to save the mantra to a list within the application for a daily dose of positive vibes. Icons designed with Adobe Illustrator.",
-    view: "https://github.com/GOECHA/habitual",
-    source: "https://github.com/GOECHA/habitual"
-}
+// {
+//     imgsrc: "https://user-images.githubusercontent.com/102189342/191309896-1a19bfc9-3af9-42c6-b562-7bcdc6cce7b6.png",
+//     title: "Habitual",
+//     text: "A JavaScript application built in React-Native and consumption of a REST API of Compliments and Mantras built with Express. This is an application that allows a user to view a random mantra and choose to save the mantra to a list within the application for a daily dose of positive vibes. Icons designed with Adobe Illustrator.",
+//     view: "https://github.com/GOECHA/habitual",
+//     source: "https://github.com/GOECHA/habitual"
+// }
 ];
 
 
 
 
-const icons = [
-    {
-    icon: {addFriend}
-},
-{
-    icon: {deleteFriend}
-},   
- {
-    icon: {email}
-},  
-  {
-    icon: {exit}
-},   
- {
-    icon: {friends}
-},   
- {
-    icon: {GH}
-},   
- {
-    icon: {hamburger}
-},   
- {
-    icon: {home}
-},   
- {
-    icon: {home2}
-},   
- {
-    icon: {LIG}
-},
-{
-    icon: {LIG2}
-},
-{
-    icon: {LI}
-},
-{
-    icon: {logout}
-},
-{
-    icon: {phone}
-},
-{
-    icon: {user}
-}
-]
+// const icons = [
+//     {
+//     iconic: "https://user-images.githubusercontent.com/102189342/200910202-05184daa-52f4-402e-9041-cf1a22ec5ce7.png"
+// }
+// {
+//     icon: {deleteFriend}
+// },   
+//  {
+//     icon: {email}
+// },  
+//   {
+//     icon: {exit}
+// },   
+//  {
+//     icon: {friends}
+// },   
+//  {
+//     icon: {GH}
+// },   
+//  {
+//     icon: {hamburger}
+// },   
+//  {
+//     icon: {home}
+// },   
+//  {
+//     icon: {home2}
+// },   
+//  {
+//     icon: {LIG}
+// },
+// {
+//     icon: {LIG2}
+// },
+// {
+//     icon: {LI}
+// },
+// {
+//     icon: {logout}
+// },
+// {
+//     icon: {phone}
+// },
+// {
+//     icon: {user}
+// }
+// ]
 
 
 
-export  { ProjectCardData , icons};
+export default ProjectCardData;
 
 
 

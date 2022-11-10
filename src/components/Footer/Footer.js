@@ -60,6 +60,7 @@ const Footer = () => {
           <h4> About the company</h4>
           <p> This is me Chantal Goethals. I love to create and learn new tech!</p>
           <div className="social">
+          <a className="linkToArt" target="blank" href='https://github.com/GOECHA/' >
                 <GithubIcon
                   style={{
                     width: "2rem",
@@ -69,6 +70,8 @@ const Footer = () => {
                   className="github-icon"
                   alt="github icon"
                 />
+                </a>
+                <a className="linkToArt" target="blank" href='https://www.linkedin.com/in/chantalgoethalsgoecha/' >
                 <LinkedInIcon
                   style={{
                     width: "2rem",
@@ -77,7 +80,8 @@ const Footer = () => {
                   }}
                   className="linkedin-icon"
                   alt="linkedin icon"
-                />
+                  />
+                  </a>
             </div>
         </section>
       </div>
