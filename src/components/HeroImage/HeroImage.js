@@ -20,7 +20,7 @@ const HeroImage = () => {
         className='btn'>Projects
         </Link>
         <Link to="/contact" 
-        className='btn btn-light'>Content
+        className='btn btn-light'>Contact
         </Link> 
         </div>
     </div>

@@ -1,0 +1,32 @@
+
+
+*{
+    border: solid 1px purple;
+}
+
+.icon-card{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+    background: rgba(0,0,0, .8);
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+    /* background: rgba(2, 81, 92, 0.5); */
+}
+
+.svg-size{
+    height: 100%;
+    width: 100%;
+}
