@@ -19,11 +19,12 @@
 
 .pro-con-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
   height: 80%;
   width: 100%;
   padding-top: 2rem;
+  /* padding: 3rem; */
 }
 
 .icon-pro-wrapper {
@@ -81,45 +82,61 @@
   position: fixed;
   /* background-color: #000; */
 }
+.swiper-cube,
+.swiper-slide-active,
+.swiper-slide,
+ .swiper-slide-visible, .swiper-slide-active,
+.swiper-cube, .swiper-slide-next,
+ .swiper-cube, .swiper-slide-next+.swiper-slide, 
+.swiper-cube, .swiper-slide-prev {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 50%;
+
+}
 
 .swiper {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 80%;
   height: auto;
   position: fixed;
-  left: 50%;
+  /* left: 50%; */
   top: 50%;
-  margin-left: -150px;
+  /* margin-left: -150px; */
   margin-top: -150px;
+
 }
 
 .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-position: center;
   background-size: cover;
-  /* width: 600px; */
+  
+  width: 80%;
 }
 
 .swiper-slide img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: block;
   width: 100%;
 }
-
-.swiper-button-next:after,
+/* 
+.swiper-button-previous:before,
 .swiper-button-next:before {
   color: white !important;
-}
+} */
 
 :root {
   --swiper-theme-color: white !important;
 }
-.swiper-cube,
-.swiper-slide-active {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
+
 
 /* .swiper,
 .swiper-cube,
@@ -142,6 +159,8 @@ margin-left: 0%;
 .pro-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   height: 80%;
   background-color: #000;
@@ -149,6 +168,9 @@ margin-left: 0%;
 
 @media screen and (max-width: 740px) {
   .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 90%;
     margin: auto;
   }

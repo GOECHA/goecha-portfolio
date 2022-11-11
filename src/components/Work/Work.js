@@ -8,7 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import IconCard from "../IconCard/IconCard";
 import ProjectCardData from "../WorkCardData/WorkCardData";
 // import  icons  from "../WorkCardData/IconCardData";
-// import "./Work.css";
+import "./Work.css";
 import "../WorkCard/WorkCard.css";
 import { SpinLogo } from "../SpinLogo/SpinLogo";
 // import { styled, useTheme } from "@mui/material/styles";
@@ -121,8 +121,11 @@ const Work = () => {
       <div className="pro-con-wrapper">
         {/* <div className="pro-container"> */}
         <Swiper
+          centeredSlides={true}
           effect={"cube"}
           grabCursor={true}
+          speed={1200}
+          
           cubeEffect={{
             shadow: true,
             slideShadows: true,
@@ -133,7 +136,7 @@ const Work = () => {
           pagination={true}
           modules={[EffectCube, Pagination, Navigation]}
           className="mySwiper"
-          styles={{ width: "500px", position: "fixed", marginLeft: "-50px" }}
+          // styles={{ width: "500px", position: "fixed", marginLeft: "0px" }}
         >
           {dynamicCard}
         </Swiper>
