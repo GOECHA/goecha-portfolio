@@ -16,7 +16,7 @@ const WorkCard = (props) => {
       />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
-        <p>{props.text}</p>
+        <p className="pro-text">{props.text}</p>
         <div className="pro-btns">
           <a className="btn" target="blank" href={props.view}>
             View

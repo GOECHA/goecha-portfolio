@@ -32,9 +32,14 @@
   padding: 1rem 0;
 }
 
+/* .pro-text{
+  font-size: 3vh;
+
+} */
+
 .pro-details p {
   padding-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 3vh;
   text-align: justify;
 }
 
